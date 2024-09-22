@@ -28,10 +28,6 @@ Este repositório contém o versionamento e compartilhamento do projeto. Ele inc
 - Qualidade da estilização com CSS.
 - Utilização de seletores CSS apropriados.
 
-### Entrega:
-
-O projeto foi entregue via repositório público do GitHub, que contém os arquivos HTML, CSS, e imagens necessários.
-
 ---
 
 ## Project: Brazilian Football League Standings Table
@@ -63,7 +59,3 @@ This repository contains the versioning and sharing of the project, including al
 - Correct use of semantic tags and attributes.
 - Quality of CSS styling.
 - Appropriate use of CSS selectors.
-
-### Delivery:
-
-The project has been delivered via a public GitHub repository, containing all the necessary HTML, CSS, and images files.
