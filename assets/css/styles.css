@@ -1,43 +1,126 @@
-body {
-  font-family: Arial, sans-serif;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
   background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  background-color: #4caf50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  margin-right: 15px;
+  height: 50px;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.table-container {
+  width: 100vh;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-top: 1px solid #ccc;
+  margin-top: 60px;
 }
 
 h1 {
-  text-align: center;
-  margin: 20px;
-  color: #333;
+  margin-bottom: 20px;
 }
 
 table {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   border-collapse: collapse;
-  background-color: #fff;
 }
 
 th,
 td {
-  border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
 th {
-  background-color: #f2f2f2;
-  color: #333;
-}
-
-tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
 }
 
 tr:hover {
-  background-color: #ddd;
+  background-color: #f2f2f2;
 }
 
-img {
-  height: 36px;
+th:hover {
+  background-color: #45a049;
+}
+
+.team-info {
+  display: flex;
+  padding-left: 1vh;
+  align-items: center;
+  justify-content: start;
+}
+
+.team-info .position {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.team-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.team-name {
+  font-weight: bold;
+}
+
+.border-libertadores {
+  border-left: 5px solid #4285f4;
+}
+
+.border-pre-libertadores {
+  border-left: 5px solid #fa7b17;
+}
+
+.border-sulamericana {
+  border-left: 5px solid #34a853;
+}
+
+.border-rebaixamento {
+  border-left: 5px solid #ea4335;
+}
+
+.result-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.last5matches-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
 }
